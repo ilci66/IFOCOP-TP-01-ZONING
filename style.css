@@ -108,4 +108,111 @@ ul .blue-li::marker {
 .center-container {
     width: 52%;
     border: 2px solid blue;
+    padding: var(--spc-sm);
+    display: flex;
+    flex-direction: column;
+}
+.center-top-one {
+    width: 100%;
+    padding: var(--spc-xs);
+    display: flex;
+    justify-content: space-between;
+}
+.center-top-one-large-rect {
+    width: 70px;
+    height: 36px;
+}
+.center-top-one-right-container {
+    display: flex;
+}
+.center-top-one-small-rect {
+    width: 48px;
+    height: 36px;
+    margin-left: var(--spc-sm);
+}
+.center-top-two {
+    margin-top: var(--spc-sm);
+    width: 100%;
+    padding: var(--spc-xs);
+    display: flex;
+}
+.center-top-two-square {
+    width: 48px;
+    height: 48px;
+}
+.center-top-two-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--spc-sm);
+    justify-content: space-between;
+
+}
+.center-top-two-large-rect {
+    width: 180px;
+    height: 18px;
+}
+.center-top-two-small-rect {
+    width: 90px;
+    height: 18px;
+}
+.center-main-container {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+.center-main-top {
+    padding: var(--spc-md);
+}
+.center-main-top-large-rect {
+    height: 18px;
+    width: 100%;
+    margin-bottom: var(--spc-xs);
+}
+.center-main-top-small-rect {
+    height: 18px;
+    width: 50%;
+    margin: var(--spc-xs) 0;
+}
+.center-main-top-col-container {
+    display: flex;
+    flex-direction: column;
+}
+.center-main-middle {
+    padding: var(--spc-md);
+    display: flex;
+    justify-content: space-between;
+}
+.center-main-middle-left {
+    display: flex;
+    flex-direction: column;
+}
+.center-main-middle-large-rect {
+    height: 20px;
+    width: 180px;
+    margin-bottom: var(--spc-xs);
+}
+.center-main-middle-small-rect {
+    height: 20px;
+    width: 80px;
+    margin: var(--spc-xs) 0;
+}
+.center-main-middle-circle {
+    height: 76px;
+    width: 76px;
+    border: 1px solid var(--background-white);
+    border-radius: 50%;
+}
+.center-main-bottom {
+    padding: var(--spc-md);
+    display: flex;
+    justify-content: space-between;
+}
+.center-main-bottom-square {
+    width:72px;
+    height:72px;
+}
+.center-main-bottom-right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
