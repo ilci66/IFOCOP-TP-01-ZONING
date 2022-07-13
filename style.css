@@ -47,14 +47,13 @@ header {
 }
 .main-flexbox {
     display: flex;
-    padding: var(--spc-md);
+    padding: var(--spc-md) var(--spc-md) 0;
 }
 .left-container {
     display: flex;
     flex-direction: column;
     width: 24%;
     padding: var(--spc-sm);
-    border: 2px solid black;
 }
 .left-top {
     display:flex;
@@ -107,8 +106,6 @@ ul .blue-li::marker {
 }
 .center-container {
     width: 52%;
-    border: 2px solid blue;
-    padding: var(--spc-sm);
     display: flex;
     flex-direction: column;
 }
@@ -126,7 +123,7 @@ ul .blue-li::marker {
     display: flex;
 }
 .center-top-one-small-rect {
-    width: 48px;
+    width: 36px;
     height: 36px;
     margin-left: var(--spc-sm);
 }
@@ -228,10 +225,9 @@ ul .blue-li::marker {
 }
 .right-container {
     width: 24%;
-    border: 2px solid teal;
     display: flex;
     flex-direction: column;
-    padding: var(--spc-sm);
+    padding: var(--spc-sm) var(--spc-sm) 0;
 }
 .right-top-container {
     width: 100%;  
